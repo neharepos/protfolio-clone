@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-[50px] mr-[45px] ml-[45px] items-center text-white justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-[50px] mr-[45px] ml-[200px] items-center text-white justify-center">
             
     
             <div className="order-1 md:order-2 flex justify-center">
@@ -14,8 +14,8 @@ const Hero = () => {
             </div>
             
         
-            <div className="order-2 md:order-1 ml[200px]">
-                <h1 className="font-bold text-3xl mb-8">HELLO</h1>
+            <div className="order-2 md:order-1">
+                <h1 className="font-bold text-3xl mb-4">HELLO</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sunt,
                     dolores perferendis voluptate officia aut officiis repudiandae quaerat, 
