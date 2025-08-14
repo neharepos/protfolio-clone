@@ -31,7 +31,7 @@ const Navbar = () => {
         
         </div>
         {isOpen && (
-        <div className='flex flex-col items-start gap-4 px-4 pb-4 sm:hidden text-lg'>
+        <div className=' flex flex-col items-start gap-4 px-4 pb-4 lg:hidden text-lg'>
           <a href="#" className='hover:text-blue-600'>Home</a>
           <a href="#" className='hover:text-blue-600'>Blogs</a>
           <a href="#" className='hover:text-blue-600'>Notes</a>

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import cards from './components/cards/cards'
 
 import Blogs from './components/Blogs/Blogs'
 
@@ -16,6 +17,7 @@ function App() {
         <Navbar/>
         <Hero />
         <Blogs/>
+        <cards/>
       </div>
     </div>
   )
