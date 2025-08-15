@@ -2,19 +2,19 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-[50px] mr-[45px] ml-[20px] items-center text-white md:ml-[600] justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 border border-amber-300 mt-[20px] mr-[20px] ml-[20px] p-[40px] items-center text-white justify-center">
             
     
             <div className="order-1 md:order-2 flex justify-center">
                 <img 
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1d-6vBf7RvcRaGND6qrF_yC6toH5ICgXDEA&s" 
                     alt="Hero"
-                    className="max-w-full h-auto"
+                    className="w-56 h-56 rounded-full"
                 />
             </div>
             
         
-            <div className="order-2 md:order-1 flex items-center justify-center min-h-[50vh] sm:text-left">
+            <div className="order-2 lg:order-1 min-h-[50vh] text-lg">
                 <h1 className="font-bold text-4xl mb-4">HELLO</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sunt,

@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Blogs = () => {
   return (
-    <div className='text-white ml-[225px] mt-[100px]'>
+    <div className='text-white ml-[225px] mt-[10px]'>
         <div>
             <h1 className='font-bold text-4xl flex cursor-pointer no-underline hover:underline'>Blogs <IoIosArrowRoundForward  className='ml-[2px] mt-[7px]'/></h1>
             <p className='mt-[6px]'>Things I have written</p>

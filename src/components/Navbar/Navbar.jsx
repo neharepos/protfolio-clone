@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-end text-white gap-4 mr-10 mt-6 text-lg'>
       
-       <div className='hidden sm:flex gap-4'>
+       <div className='hidden lg:flex gap-4'>
         
         <ul className='flex gap-4'>
             <li><a href="#" className=' hover:text-blue-600'>Home</a></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
         </ul> 
         </div>
         
-          <div className='inline sm:hidden font-bold cursor-pointer ' onClick={toggleMenu}>
+          <div className='inline lg:hidden font-bold cursor-pointer ' onClick={toggleMenu}>
              {isOpen ? <IoMdClose /> : <RxHamburgerMenu />}
         
         </div>
