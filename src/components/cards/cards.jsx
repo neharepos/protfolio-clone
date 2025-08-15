@@ -1,15 +1,17 @@
 import React from 'react'
+import { IoIosArrowRoundForward } from "react-icons/io";
 
-const cards = () => {
+const Cards = (props) => {
   return (
-    <div className='text-white ml-[225px] mt-[100px]'>
-        <div className='border-3 border-blue-500 p-[12px] cursor-pointer hover:border-blue-800 transition-colors duration-300 mt-[16px] w-[200px] h-[170px]'>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Facilis, velit!
+    <div className='text-white mx-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-90'>
+        <div className='border-3 border-blue-500 rounded-2xl p-[20px] cursor-pointer hover:border-blue-900 hover:shadow-2xl transition-shadow duration-500 mt-[16px]  sm:w-[380px] sm:h-[230px]  md:w-[500px] md:h-[240px] lg:w-[620px] xl:h[250]'>
+                <h2 className='font-bold text-xl'>{props.title}</h2>
+                <h3 className='font-semibold'>{props.date}</h3>
+                <p className='text-gray-400'>{props.description}</p>
                 <h3 className='flex text-blue-500'>Read <IoIosArrowRoundForward  className='ml-[2px] mt-[7px]'/></h3>
             </div>
     </div>
   )
 }
 
-export default cards
+export default Cards

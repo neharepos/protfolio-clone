@@ -4,9 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import cards from './components/cards/cards'
-
-import Blogs from './components/Blogs/Blogs'
+import Heading from './components/Heading/Heading'
+import Cards from './components/Cards/Cards'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +15,8 @@ function App() {
       <div>
         <Navbar/>
         <Hero />
-        <Blogs/>
-        <cards/>
+        <Heading heading="Blogs" task="Things I have written recently"/>
+      
       </div>
     </div>
   )
