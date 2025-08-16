@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Heading from './components/Heading/Heading'
-import Cards from './components/Cards/Cards'
+import Blogs from './components/Blogs/Blogs'
+import Notes from './components/Notes/Notes'
+import Project from './components/Project/Project'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +14,9 @@ function App() {
       <div>
         <Navbar/>
         <Hero />
-        <Heading heading="Blogs" task="Things I have written recently"/>
+        <Blogs/>
+        <Notes />
+        <Project/>
       
       </div>
     </div>

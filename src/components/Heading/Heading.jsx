@@ -1,25 +1,24 @@
 import React from 'react'
-import { IoIosArrowRoundForward } from "react-icons/io";
-import Cards from '../Cards/Cards.jsx'
 
 const Heading = (props) => {
-  return (
-    <div className='text-white ml-[16px] mt-[5px]'>
+    return (
         <div>
-            <h1 className='font-bold text-4xl flex cursor-pointer '>{props.heading}<IoIosArrowRoundForward  className='ml-[2px] mt-[7px]'/></h1>
-            <p className='mt-[6px]'>{props.task}</p>
-            <Cards 
-            title="My First Blog"
-            date="publised on: 11-2-24" 
-            description="For a first-time visitor to Delhi, 
-            it's recommended to explore iconic landmarks 
-            like the Red Fort, Qutub Minar, and Humayun's Tomb,
-             which showcase the city's rich history."
-        />
-        <h3 className='flex ml-[26px] mt-[10px] text-blue-500'>View all</h3>
+            <h1 className="text-white text-3xl  p-2 font-bold">
+                <div className="inline-block group">
+                    <a className="p-1 gap-2 cursor-default"> {props.heading}
+                        <span className='p-2 w-[5px]'>&#8594;</span>
+                    </a>
+                    <div
+                        className="bg-white h-[2px] w-0 group-hover:w-full transition-all duration-500 group-hover:bg-blue-500"
+                    >
+                    </div>
+                </div>
+            </h1>
+            <div className='text-white ml-4 font-semibold'>
+                <p>{props.description}</p>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Heading
