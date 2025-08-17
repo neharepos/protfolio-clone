@@ -48,6 +48,7 @@ const Notes = () => {
             description={notes.description}
             />
             ))}
+            <h3 className='flex ml-[26px] mt-[10px] text-blue-500'>View all</h3>
         </div>
     </div>
   )

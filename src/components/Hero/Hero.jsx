@@ -15,8 +15,8 @@ const Hero = () => {
             
         
             <div className="order-2 lg:order-1 min-h-[50vh] text-lg">
-                <h1 className="text-4xl mb-4 font-rammetto">HELLO</h1>
-                <p>
+                <h1 className="text-base mb-4 font-rammetto">HELLO</h1>
+                <p className='font-quicksand'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sunt,
                     dolores perferendis voluptate officia aut officiis repudiandae quaerat, 
                     ipsum id ad ex eos? Odio omnis rerum, quod iste necessitatibus cum natus laboriosam ut 

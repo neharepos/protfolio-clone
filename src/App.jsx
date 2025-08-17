@@ -7,16 +7,25 @@ import Notes from './components/Notes/Notes'
 import Project from './components/Project/Project'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-slate-900'>
+    <div className='bg-black'>
       <div>
         <Navbar/>
         <Hero />
-        <Blogs/>
-        <Notes />
+
+        <div className="flex flex-col md:flex-row gap-6 px-6">
+          <div  className="flex-1">
+              <Blogs/>
+          </div>
+          <div  className="flex-1">
+              <Notes />
+          </div>
+        </div>
+        
+        
         <Project/>
+
       
       </div>
     </div>

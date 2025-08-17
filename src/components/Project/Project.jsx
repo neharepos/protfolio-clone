@@ -34,7 +34,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <div>
+    <div className='text-white ml-[40px] mt-[5px]'>
         <div>
             <Heading heading="Projects" description="List of my best projects"/>
             
@@ -46,6 +46,7 @@ const Project = () => {
             description={projects.description}
             />
             ))}
+            <h3 className='flex ml-[26px] mt-[10px] text-blue-500'>View all</h3>
         </div>
     </div>
   )
