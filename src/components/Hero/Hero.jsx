@@ -9,13 +9,13 @@ const Hero = () => {
                 <img 
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1d-6vBf7RvcRaGND6qrF_yC6toH5ICgXDEA&s" 
                     alt="Hero"
-                    className="w-56 h-56 rounded-full"
+                    className="w-32 h-32 lg:w-48 lg:h-48 border-2 border-black object-cover rounded-full"
                 />
             </div>
             
         
-            <div className="order-2 lg:order-1 min-h-[50vh] text-lg">
-                <h1 className="text-base mb-4 font-rammetto">HELLO</h1>
+            <div className="order-2 lg:order-1 min-h-[50vh] items-center lg:text-left">
+                <h1 className="mb-4 text-2xl font-rammetto font-bold">Hello</h1>
                 <p className='font-quicksand'>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sunt,
                     dolores perferendis voluptate officia aut officiis repudiandae quaerat, 

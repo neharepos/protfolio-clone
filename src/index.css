@@ -1,3 +1,12 @@
 @import "tailwindcss";
 
-@import "@fontsource/rammetto-one";
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.font-rammetto {
+  font-family: 'Rammetto One', cursive;
+}
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}

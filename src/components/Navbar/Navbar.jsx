@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-end text-white gap-4 mr-10 mt-6 text-lg'>
+    <div className='flex justify-end text-white gap-4 mr-10 mt-6 text-lg font-quicksand font-extrabold'>
       
        <div className='hidden lg:flex gap-4'>
         
