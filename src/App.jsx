@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero'
 import Blogs from './components/Blogs/Blogs'
 import Notes from './components/Notes/Notes'
 import Project from './components/Project/Project'
+import Form from './components/Form/Form'
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
         
         
         <Project/>
-
+        <Form />
       
       </div>
     </div>

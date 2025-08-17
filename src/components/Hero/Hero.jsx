@@ -25,7 +25,12 @@ const Hero = () => {
                     velit odit iure odio eveniet dolores sequi error sapiente ratione impedit molestias
                     accusamus alias aspernatur quaerat pariatur dolore nam vero perspiciatis saepe quo?
                     Sed voluptate eligendi aperiam dolore, praesentium culpa minus sint, eos nihil magni
-                    ratione quod dolores magnam tempore nemo quibusdam ab provident. Aliquid?
+                    ratione quod dolores magnam tempore nemo quibusdam ab provident. Aliquid? A hill 
+                    station is a small town located at a higher elevation than the surrounding plains
+                    or valleys, known for its cool climate and low temperatures. Below is an 
+                    essay about visiting a hill station, written in simple and easy-to-understand language
+                    to help 5th-grade students and older children. After reading this essay, kids will be
+                    able to write their own essay on a visit to a hill station essay in English.
                 </p>
             </div>
         </div>
