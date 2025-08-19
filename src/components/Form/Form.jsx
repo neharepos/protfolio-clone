@@ -2,8 +2,9 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='bg-white text-black rounded-2xl text-xl sm:text-xl mx-7 p-6 sm:w-[380px]  md:w-[600px] lg:w-[800px] xl:w-[950px]'>
-        <div className='ml-2'>
+    <div className='px-8 sm:px-6 md:px-8 lg:px-12'>
+    <div className='bg-white text-black rounded-2xl text-xl p-6 w-full max-w-[900] my-6 mx-4 sm:mx-6 md:mx-8 lg:mx-12 '>
+        
             <form>
                 <br />
                 <h3 className='font-bold text-3xl'>Let's Connect</h3>
@@ -16,9 +17,9 @@ const Form = () => {
 
                 <div className='my-2 mt-9'>
 
-                    <textarea placeholder="Message*" className='bg-gray-100  w-full h-32 p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg'></textarea>
+                    <textarea placeholder="Message*" className='bg-gray-100  w-full h-32 p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded-lg lg:w-150'></textarea>
                 </div>
-                    <button className='bg-blue-900 py-3 px-6 mt-6 p-3 w-full max-w-md md:max-w-sm lg:max-w-md tracking-wide cursor-pointer rounded-lg text-sm text-white font-bold focus:outline-none 
+                    <button className='bg-blue-900 py-3 px-6 mt-6 p-3 w-full max-w-sm md:max-w-md lg:max-w-md tracking-wide cursor-pointer rounded-lg text-sm text-white font-bold focus:outline-none 
                     relative'>SEND MESSAGE</button>
             
             </form>
