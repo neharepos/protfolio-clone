@@ -2,8 +2,8 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='px-8 sm:px-6 sm:w-[90%] md:w-[80%] md:px-8 lg:px-12'>
-    <div className='bg-white text-black rounded-2xl text-xl p-6 w-full max-w-[900] my-6 mx-4 sm:mx-6 md:mx-8 lg:mx-12 '>
+    <div className='w-full px-7 sm:px-6 md:px-8 lg:px-12'>
+    <div className='bg-white text-black rounded-2xl text-xl p-6 w-full max-w-[900] my-6 mx-auto sm:p-8 md:p-10 lg:mx-12 '>
         
             <form>
                 <br />
