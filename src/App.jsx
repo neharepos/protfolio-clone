@@ -34,7 +34,7 @@ function App() {
       <Form />
 
       {/* Info below form by default */}
-      <div className="mt-6 lg:mt-8 w-full max-w-sm lg:absolute lg:bottom-8 lg:right-6 lg:w-1/2">
+      <div className="mt-6 lg:mt-8 w-full lg:absolute lg:bottom-8 lg:right-6 lg:w-1/2">
         <Information />
       </div>
     </div>
