@@ -7,6 +7,7 @@ import Notes from './components/Notes/Notes'
 import Project from './components/Project/Project'
 import Form from './components/Form/Form'
 import Information from './components/Information/Information'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -36,9 +37,10 @@ function App() {
       {/* Info below form by default */}
       <div className="mt-6 lg:mt-8 w-full lg:absolute lg:bottom-8 lg:right-6 lg:w-1/2">
         <Information />
+        
       </div>
     </div>
-
+<Footer/>
 
 
 
