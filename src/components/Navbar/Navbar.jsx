@@ -13,11 +13,11 @@ const Navbar = () => {
 
 
   return (
-    <div className='sticky top-0 z-50 flex justify-end text-white gap-4 mr-10 mt-6 text-lg font-quicksand font-extrabold'>
+    <div className='sticky bg-black top-0 z-20 flex justify-end text-white opacity-80 gap-4 mr-10 mt-6 text-lg font-quicksand font-extrabold'>
       
        <div className=' hidden lg:flex gap-4'>
         
-        <ul className='flex gap-4 backdrop-blur'>
+        <ul className='flex gap-4 bg-opacity-200'>
             <li><a href="#" className=' hover:text-blue-600'>Home</a></li>
             <li><a href="#" className=' hover:text-blue-600'>Blogs</a></li>
             <li><a href="#" className=' hover:text-blue-600'>Notes</a></li>
