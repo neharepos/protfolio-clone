@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   return (
-    <div className='bg-black'>
+    <div className='bg-black mx-12'>
       <div>
         <Navbar />
         <Hero />
@@ -27,7 +27,7 @@ function App() {
         </div>
 
 
-        <Project />
+        <Project/>
         
         
          <div className="relative flex flex-col items-center lg:w-[1300px] lg:ml-13 lg:mb-10">

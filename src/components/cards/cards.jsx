@@ -4,7 +4,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const Cards = (props) => {
   return (
     <div>
-        <div className='border-3 border-blue-500 hover:border-blue-900 backdrop-blur-md rounded-2xl  p-[20px] cursor-pointer shadow-lg mt-[16px]  sm:w-[380px] sm:h-[230px]  md:w-[500px] md:h-[240px] lg:w-[620px] xl:h[250] group'>
+        <div className='transition duration-300 hover:shadow-[0_0_15px_rgba(59,130,246,0.8)]
+         backdrop-blur-md rounded-2xl  p-[20px] cursor-pointer shadow-lg mt-[16px]  sm:w-[380px] sm:h-[230px]  md:w-[500px] md:h-[240px] lg:w-[620px] xl:h[250] group'>
                 <h2 className='font-bold text-xl text-white font-poppins'>{props.title}</h2>
                 <h3 className='font-semibold text-white font-poppins'>{props.date}</h3>
                 <p className='text-gray-400 font-quicksand'>{props.description}</p>
